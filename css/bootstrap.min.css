@@ -34,7 +34,7 @@
 }
 
   .jumbotron { 
-    background-color: #1a1a1a; /* Maroon*/
+    background-color: transparent; /* Maroon*/
     color: #800000;
     border-radius: 0;
        padding: 100px 25px;
