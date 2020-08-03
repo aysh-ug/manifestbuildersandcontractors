@@ -115,3 +115,22 @@ p {
 .my-3 img{
 	padding: 0px; margin: 0px;
 }
+
+.footer{
+	line-height: 1.0;
+}
+
+img {
+	width: 100%;
+}
+
+.btn-brand-tertiary {
+  background: #c0d6e4;
+  color: #000;
+  border-color: #aecadc;
+}
+.btn-brand-tertiary:hover {
+  background: #e4edf3;
+  color: #000;
+  border-color: #c0d6e4;
+}
