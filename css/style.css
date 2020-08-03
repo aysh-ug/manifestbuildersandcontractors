@@ -1,0 +1,117 @@
+
+ body {
+      font-family:  Nunito Sans, sans-serif;
+      line-height: 1.5;
+      color: #1a1a1a;
+      background-image: url("images/lodge2.jpg");
+  }
+.navbar-brand{
+	font-size: 100%;margin: auto;
+}
+
+.container {
+ margin-top: 0;
+}
+
+.navbar{
+	background-color: #000; margin-bottom: 0; 
+}
+h1{
+	 color: #800000;
+}
+
+.display-5b{
+	color: #f2f2f2;
+}
+
+p {
+	padding-top: 20px; font-family:  Nunito Sans, sans-serif;
+	font-size: 13px;
+}
+
+.jumbotron {
+	background-image: url("images/lodge2.jpg") no-repeat;
+
+}
+
+.container {
+  max-width: 960px;
+}
+
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  opacity: 0.5;
+  border-radius: 0px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: 0px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #800000;
+  opacity: 0.3;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+.my-3 img{
+	padding: 0px; margin: 0px;
+}
