@@ -244,3 +244,14 @@ img {
   color: #000;
   border-color: #c0d6e4;
 }
+
+#contact{
+	margin-top: 80px;
+	
+}
+
+#footerheader{
+border-top: 1px solid #ccc;
+	border-bottom: 0px;
+	padding-top: 20px;	
+}
