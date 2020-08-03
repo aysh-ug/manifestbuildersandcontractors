@@ -4,40 +4,62 @@
       line-height: 1.5;
       color: #1a1a1a;
       background-image: url("images/lodge2.jpg");
+       padding: 5px;
   }
 .navbar-brand{
-	font-size: 100%;margin: auto;
+	font-size: 100%;margin: auto; 
 }
 
 .container {
- margin-top: 0;
+
 }
 
 .navbar{
-	background-color: #000; margin-bottom: 0; 
+	background-color: #000; margin-bottom: 5px; 
+	border-bottom: 1px solid #ccc;
+	
 }
+.logoanim {
+	width: 120px;
+}
+
 h1{
 	 color: #800000;
+}
+h2{
+	color: #800000;
 }
 
 .display-5b{
 	color: #f2f2f2;
 }
+.display-5{
+	margin-top: 20px;
+}
 
 p {
 	padding-top: 20px; font-family:  Nunito Sans, sans-serif;
-	font-size: 13px;
+	font-size: 16px;
 }
 
 .jumbotron {
 	background-image: url("images/lodge2.jpg") no-repeat;
+	 border:1px solid #ccc;margin-top: 20px;
 
+}
+#contentr {
+	margin: 5px;
+	border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .container {
   max-width: 960px; line-height: 1.2;
 }
 
+#welcome {
+  border: 1px solid #000;
+}
 
 /*
  * Custom translucent site header
