@@ -15,8 +15,14 @@ h4{
 	font-weight: normal;
 }
 .mySlides{
-	height: 450px; margin: auto;
+	max-width: 700px; height: 350px;  margin: auto;
+}
+.fa-chevron-circle-right {
+color: #800000; font-size: 250%;
+}
 
+.fa-chevron-circle-left {
+color: #669900; font-size: 250%;
 }
 
 
@@ -27,7 +33,7 @@ h4{
 	display: none;
 }
 .mySlides{
-	max-width: 350px; margin: auto;
+	max-width: 350px; height: 200px; margin: auto;
 }
 #option{
 	display: none;
