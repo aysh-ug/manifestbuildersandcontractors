@@ -3,6 +3,15 @@
     animation: animatebottom 4s
 }
 
+.constrn{
+    border-bottom: 2px dotted #4d0000;
+    border-top: 2px dotted #4d0000;
+    margin-bottom: 10px !important;
+    background-color: #800000;
+    color: #dadada;
+    margin: 5px 20px;
+    padding: 20px;
+}
 @keyframes animatebottom {
     from {
         bottom: -100px;
@@ -120,10 +129,7 @@ nav button:hover {
     background: #262626 !important;
 }
 
-.mySlides {
-    max-width: 700px;
-    margin: auto;
-}
+
 
 .fa-chevron-circle-right {
     color: #800000;
@@ -137,10 +143,14 @@ nav button:hover {
 
 @charset "UTF-8";
 @media only screen and (max-width: 600px) {
+
+    #ades{
+        margin-bottom: 20px;
+    }
     #headingbig {
         display: none;
     }
-    .mySlides {
+    #picsg{
         max-width: 350px;
         height: 200px;
         margin: auto;
@@ -148,6 +158,10 @@ nav button:hover {
     #option {
         display: none;
     }
+    footer {
+       margin-top: 50px;
+    }
+    
 }
 
 
@@ -155,6 +169,14 @@ nav button:hover {
 
 @charset "UTF-8";
 @media only screen and (min-width: 600px) {
+    #ades{
+        margin: 20px;
+    }
+    .w3-half{width:45% !important}
+    .mySlides {
+        min-width: 350px;
+        margin: auto;
+    }
     #headingsmall {
         display: none;
     }
