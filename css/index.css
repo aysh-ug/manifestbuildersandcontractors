@@ -169,6 +169,9 @@ nav button:hover {
 
 
 /*-------------BIG SCREENS-------------*/
+.uspic{
+    max-width: 300px !important;
+}
 
 @charset "UTF-8";
 @media only screen and (min-width: 601px) {
