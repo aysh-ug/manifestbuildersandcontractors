@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <head>
 <title>Manifest Builders & Contractors Ltd</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,6 +33,18 @@
 </script>
 <!--End of Tawk.to Script-->
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZSL19TSMHH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZSL19TSMHH');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+</head>
+
 <body id="myPage" class="w3-container w3-center" style="padding: 0; margin: 0; ">
 
     <div id="mcont" class="w3-light-gray w3-padding-0 w3-margin-0">
@@ -44,8 +57,11 @@
 
             <button class=" w3-bar-item w3-btn w3-large " onclick="w3_close()">Close <i class="fa fa-times" aria-hidden="true"></i></button>
             <a href="index.html" class="w3-bar-item w3-btn w3-large">Home</a>
-            <a href="aboutus.html" class="w3-bar-item w3-btn  w3-large">About Us</a>
+            <a href="aboutus.html" class="w3-bar-item w3-btn  w3-large">Meet our team</a>
             <a href="portfolio.html" class="w3-bar-item w3-btn w3-large">Portfolio</a>
+            <a href="docs/profile.pdf" class="w3-btn w3-medium w3-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:800; ">
+                Company Profile  <i class="fa fa-download" aria-hidden="true"></i></a>
+
 
         </nav>
 
@@ -74,21 +90,27 @@
 
 
         <div class="w3-light-gray">
-            <h2 style="font-weight: bold;">CALL US</h2>
+            <h2 style="font-weight: bold;">Connect with us via</h2>
+                    
             <div class="w3-row">
 
                 <div class="w3-half">
-                    <i class="fa fa-comments-o " aria-hidden="true" style="font-size: 200px;"></i>
+                    <span class="iconify" data-icon="si-glyph:customer-support" data-inline="false" style="font-size: 200px;" ></span>
+               
 
                 </div>
 
 
                 <div class="w3-half w3-padding">
-                    <h4 class="w3-padding w3-gray">
-                        PHONE
-                    </h4>
-
-                    <p class="w3-justify "> +256 (0) 773241258 </p>
+     
+                        <a href="Tel:+256773241258"  class="w3-btn btn w3-padding w3-blue">+256 (0) 773241258 
+                            <span class="iconify" data-icon="ion:call" data-inline="false"></span>
+                        </a>
+                    
+                    
+                    <a href="https://wa.me/256756556672?text=Hello%20Manifest%20Builders..."  class="w3-btn btn w3-padding w3-green">Whatsapp us <span class="iconify" data-icon="dashicons:whatsapp" data-inline="false"></span></a>
+                    <a href="mailto:manifestbuilders@gmail.com"  class="w3-btn btn w3-padding w3-theme-d4">Email us <i class="fa fa-envelope w3-text-white" aria-hidden="true"></i></a>
+                   
                 </div>
             </div>
 
@@ -167,7 +189,7 @@
             </div>
             <a class="w3-btn w3-theme-d4" href="#myPage" title="To Top">Back to top
     </a>
-<p class="w3-text-grey">Designed by Aysh Inventions Ltd</a>
+            <p>Designed by Aysh Inventions Ltd</a>
             </p>
         </footer>
         <script src="js/jquery-3.1.0.min.js"></script>
