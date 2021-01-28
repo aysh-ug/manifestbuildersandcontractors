@@ -231,6 +231,12 @@ footer p i {
     max-width: 500px;
 }
 
+#abt2 {
+    margin: 0px auto;
+    background-color: #2e2e2e;
+    color: #aaaaaa;
+}
+
 .border {
     border: 2px solid #3a3a3a;
 }
