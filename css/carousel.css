@@ -1,0 +1,147 @@
+#myHeader {
+    background: rgb(0, 0, 0) url('../images/bg/brick-wall-dark.png') !important;
+}
+
+footer {
+    background: rgb(0, 0, 0) url('../images/bg/brick-wall-dark.png') !important;
+}
+
+.ctt a {
+    min-width: 180px !important;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.gallery-container {
+    align-items: center;
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+}
+
+.gallery-item {
+    height: 100px;
+    opacity: .4;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    width: 150px;
+    z-index: 0;
+}
+
+.gallery-item.gallery-item-selected {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    height: 100%;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    z-index: 2;
+}
+
+.gallery-item.gallery-item-previous,
+.gallery-item.gallery-item-next {
+    height: 200px;
+    opacity: 1;
+    width: 200px;
+    z-index: 1;
+}
+
+.gallery-item.gallery-item-previous {
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.gallery-item.gallery-item-next {
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.gallery-item.gallery-item-next1 {
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.gallery-item.gallery-item-next2 {
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.gallery-item.gallery-item-next3 {
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.gallery-item.gallery-item-next4 {
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.gallery-item.gallery-item-next5 {
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.gallery-item.gallery-item-next6 {
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.gallery-item.gallery-item-first {
+    left: 15%;
+    transform: translateX(-50%);
+}
+
+.gallery-item.gallery-item-last {
+    left: 85%;
+    transform: translateX(-50%);
+}
+
+.gallery-controls {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.gallery-controls button {
+    border: 1px solid rgb(83, 83, 83);
+    background-color: black;
+    color: rgb(206, 191, 191);
+    font-size: 16px;
+    margin: 0 20px;
+    padding: 0 12px;
+    text-transform: capitalize;
+}
+
+.gallery-controls button:focus {
+    outline: none;
+}
+
+.gallery-controls-previous {
+    position: relative;
+}
+
+.gallery-nav {
+    bottom: -15px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.gallery-nav li {
+    background: #ccc;
+    border-radius: 50%;
+    height: 10px;
+    margin: 0 16px;
+    width: 10px;
+}
+
+.gallery-nav li.gallery-item-selected {
+    background: #555;
+}
