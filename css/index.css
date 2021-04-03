@@ -7,6 +7,14 @@
     animation: animatebottom 4s
 }
 
+.conreas {
+    background: rgb(238, 101, 101) url('../images/bg/dark-mosaic.png') !important;
+}
+
+.request {
+    background: rgb(230, 230, 230) url('../images/bg/grid-noise.png') !important;
+}
+
 .constrn {
     border-bottom: 2px dotted #4d0000;
     border-top: 2px dotted #4d0000;
