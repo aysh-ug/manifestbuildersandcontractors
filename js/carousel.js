@@ -16,29 +16,29 @@ class Carousel {
         this.carouselArray[1].classList.add('gallery-item-previous');
         this.carouselArray[2].classList.add('gallery-item-selected');
         this.carouselArray[3].classList.add('gallery-item-next');
-        this.carouselArray[4].classList.add('gallery-item-next1');
-        this.carouselArray[5].classList.add('gallery-item-next2');
-        this.carouselArray[6].classList.add('gallery-item-next3');
-        this.carouselArray[7].classList.add('gallery-item-next4');
-        this.carouselArray[8].classList.add('gallery-item-next5');
-        this.carouselArray[9].classList.add('gallery-item-next6');
+        this.carouselArray[4].classList.add('gallery-item-third');
+        this.carouselArray[5].classList.add('gallery-item-next');
+        this.carouselArray[6].classList.add('gallery-item-next');
+        this.carouselArray[7].classList.add('gallery-item-next');
+        this.carouselArray[8].classList.add('gallery-item-next');
+        this.carouselArray[9].classList.add('gallery-item-next');
         this.carouselArray[10].classList.add('gallery-item-last');
 
         document.querySelector('.gallery-nav').childNodes[0].className = 'gallery-nav-item gallery-item-first';
         document.querySelector('.gallery-nav').childNodes[1].className = 'gallery-nav-item gallery-item-previous';
         document.querySelector('.gallery-nav').childNodes[2].className = 'gallery-nav-item gallery-item-selected';
         document.querySelector('.gallery-nav').childNodes[3].className = 'gallery-nav-item gallery-item-next';
-        document.querySelector('.gallery-nav').childNodes[4].className = 'gallery-nav-item gallery-item-next1';
-        document.querySelector('.gallery-nav').childNodes[5].className = 'gallery-nav-item gallery-item-next2';
-        document.querySelector('.gallery-nav').childNodes[6].className = 'gallery-nav-item gallery-item-next3';
-        document.querySelector('.gallery-nav').childNodes[7].className = 'gallery-nav-item gallery-item-next4';
-        document.querySelector('.gallery-nav').childNodes[8].className = 'gallery-nav-item gallery-item-next5';
-        document.querySelector('.gallery-nav').childNodes[9].className = 'gallery-nav-item gallery-item-next6';
+        document.querySelector('.gallery-nav').childNodes[4].className = 'gallery-nav-item gallery-item-third';
+        document.querySelector('.gallery-nav').childNodes[5].className = 'gallery-nav-item gallery-item-next';
+        document.querySelector('.gallery-nav').childNodes[6].className = 'gallery-nav-item gallery-item-next';
+        document.querySelector('.gallery-nav').childNodes[7].className = 'gallery-nav-item gallery-item-next';
+        document.querySelector('.gallery-nav').childNodes[8].className = 'gallery-nav-item gallery-item-next';
+        document.querySelector('.gallery-nav').childNodes[9].className = 'gallery-nav-item gallery-item-next';
         document.querySelector('.gallery-nav').childNodes[10].className = 'gallery-nav-item gallery-item-last';
     }
 
     // Update the order state of the carousel with css classes
-    setCurrentState(target, selected, previous, next, first, last) {
+    setCurrentState(target, selected, previous, next, third, first, last) {
 
         selected.forEach(el => {
             el.classList.remove('gallery-item-selected');
@@ -62,9 +62,17 @@ class Carousel {
 
         next.forEach(el => {
             el.classList.remove('gallery-item-next');
-
             if (target.className == 'gallery-controls-previous') {
                 el.classList.add('gallery-item-last');
+            } else {
+                el.classList.add('gallery-item-selected');
+            }
+        });
+
+        third.forEach(el => {
+            el.classList.remove('gallery-item-third');
+            if (target.className == 'gallery-controls-previous') {
+                el.classList.add('gallery-next');
             } else {
                 el.classList.add('gallery-item-selected');
             }
